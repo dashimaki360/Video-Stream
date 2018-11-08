@@ -12,7 +12,7 @@
         <h1>!!!Thank you for comming!!!</h1>
       </div>
 
-    <section class="container">
+    <section class="container" onclick="">
 
       <div class="row pt-5">
         <div class="col-md-12 text-center">
@@ -22,7 +22,8 @@
 
       <div class="row pt-5">
         <div class="col-lg-12 text-center">
-          <button class="btn btn-lg btn-success" onclick="location.href='{{ url_for('index') }}'">back</button>
+          <!-- <button class="btn btn-lg btn-success" onclick="location.href='{{ url_for('index') }}'">back</button> -->
+          <a class="btn btn-lg btn-success" href="{{ url_for('index') }}">back</a>
         </div>
       </div>
     

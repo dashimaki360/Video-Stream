@@ -12,7 +12,7 @@
         <h1 class="text-center">Video Streaming Demonstration from A1F</h1>
       </div>
 
-    <section class="container">
+    <section class="container" onclick="">
       <div class="row pt-5">
         <div class="col-md-12 text-center">
           <img src="{{ url_for('video_feed') }}" class="w-75">
@@ -22,8 +22,8 @@
       <div class="row py-5">
         <div class="col-md-12 text-center">
           <div class="btn-group">
-            <button class="btn btn-lg btn-primary" onclick="location.href='{{ url_for('good_btn') }}'">cool</button>
-            <button class="btn btn-lg btn-danger" onclick="location.href='https://google.com'">bad</button>
+            <a class="btn btn-lg btn-primary" href="{{ url_for('good_btn') }}">cool</a>
+            <a class="btn btn-lg btn-danger" href="https://google.com">bad</a>
           </div>
         </div>
       </div>
