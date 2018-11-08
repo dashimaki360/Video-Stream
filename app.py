@@ -35,7 +35,7 @@ def good_btn():
 
 
 if __name__ == '__main__':
-    debug = False 
+    debug = False
     app.run(host="0.0.0.0", debug=debug)
 
     print("del camera thred")
