@@ -50,7 +50,7 @@ class Camera(BaseCamera):
         else:
             Camera.dump_count += 10
         
-        if Camera.dump_count > 10000:
+        if Camera.dump_count > 3000:
             # save img
             img_name = "dump_{0:%Y%m%d%I%M%S}.jpg".format(datetime.datetime.now())
             img_path = os.path.join("dump", img_name)
